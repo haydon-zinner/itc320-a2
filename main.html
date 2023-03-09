@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A2</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript" src="Common/webgl-utils.js"></script>
+    <script type="text/javascript" src="Common/initShaders2.js"></script>
+    <script type="text/javascript" src="Common/MV.js"></script>
+
+    <script type="text/javascript" src="Parsers/TGAParser.js"></script>
+    <script type="text/javascript" src="Parsers/ObjParser.js"></script>
+    <script type="text/javascript" src="Parsers/ColladaParser.js"></script>
+    <script type="text/javascript" src="WebGLMath.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="AnimatedObject.js"></script>
+
+</head>
+<body>
+<div id="wrapper">
+    <div id="webGLContent">
+        <canvas id='gl-canvas' width="1024" height="800">
+            Canvas is not supported by your browser...
+        </canvas>
+    </div>
+    <div id="text">
+        <table>
+            <th><h1>Movement</h1></th>
+            <tr><td>Up:</td><td>U</td></tr>
+            <tr><td>Down:</td><td>J</td></tr>
+            <tr><td>Left:</td><td>H</td></tr>
+            <tr><td>Right:</td><td>K</td></tr>
+            <tr><td>Pan the camera:</td><td>Click and drag</td></tr>
+            <th><h1>Animation</h1></th>
+            <tr><td>Slow down Playback:</td><td>S</td></tr>
+            <tr><td>Speed up Playback:</td><td>X</td></tr>
+            <tr><td>Play next animation track:</td><td>N</td></tr>
+            <tr><td>Play previous animation track:</td><td>P</td></tr>
+            <tr><td>Pause/Unpause animations track:</td><td>Z</td></tr>
+            <th><h1>Camera</h1></th>
+            <tr><td>Enable Picking:</td><td>1</td></tr>
+            <tr><td>Birds Eye View:</td><td>2</td></tr>
+            <tr><td>Reset Camera:</td><td>3</td></tr>
+        </table>
+        <p>Can you find all the cats?</p>
+    </div>
+</div>
+</body>
+</html>

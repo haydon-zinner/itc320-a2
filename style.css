@@ -1,0 +1,21 @@
+#wrapper{
+    width: 100%;
+    height: 100%;
+}
+#gl-canvas{
+    border: 5px solid #000000;
+    display: inline-block;
+    float: left;
+    margin: 10px;
+}
+#text{
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+    float: start;
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+}
+
+

@@ -1,0 +1,4 @@
+
+Please note:
+
+There is no .tga file provided for the Cat model, hence you may use either the AnimatedRectangle.tga or goblintexture.tga.
